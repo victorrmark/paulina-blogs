@@ -1,0 +1,76 @@
+.slug {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.blog_des {
+  margin-top: 16px;
+}
+
+.blog_des p,
+.blog_des li {
+  margin-bottom: 10px;
+}
+
+ul,
+ol {
+  /* list-style-position: inside; */
+  margin-left: 25px;
+}
+
+h2 {
+  margin-bottom: 7px;
+}
+
+blockquote {
+  margin: 0 10px;
+  padding: 0 5px;
+  border-left: 3px solid #bdbbb9;
+}
+
+hr {
+  margin: 32px 0;
+  border: 1px solid #efedeb;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: separate;
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
+  padding: 3px;
+}
+
+td,
+th {
+  padding: 6px 13px;
+  border: 1px solid #efedeb;
+}
+
+th {
+  font-weight: bold;
+  text-align: left;
+}
+
+table tr:first-child th:first-child {
+  border-top-left-radius: 8px;
+}
+
+/* Top-right */
+table tr:first-child th:last-child {
+  border-top-right-radius: 8px;
+}
+
+/* Bottom-left */
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+/* Bottom-right */
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}

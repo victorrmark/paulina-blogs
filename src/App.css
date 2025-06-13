@@ -1,0 +1,97 @@
+.dark {
+  z-index: -1;
+  background-color: #1c1a19;
+  color: #fefefe;
+  transition: 0.3s;
+}
+.dark #body {
+  outline: 1px solid #34302d;
+}
+
+.dark .nav-section,
+.dark .nav-mobile {
+  background: #201e1d;
+  outline: 1px solid #34302d;
+}
+
+.dark .hamburger {
+  background: #201e1d;
+  outline: none;
+}
+
+.dark .nav-mobile a {
+  color: #fefefe;
+}
+
+.dark h2,
+.dark .invite {
+  color: #fefefe;
+}
+
+.dark p,
+.dark ol,
+.dark ul,
+.dark li {
+  color: #c0bfbf;
+}
+
+.dark input {
+  background: #201e1d;
+  border: 1px solid #4a4846;
+  color: #dedcda;
+}
+
+.dark .color-mode,
+.dark .social {
+  background: #201e1d;
+  border: 1px solid #34302d;
+  transition: 0.5s;
+}
+
+.dark .social:hover {
+  background: #63605d;
+}
+
+.dark .logo {
+  fill: #fefefe;
+}
+
+.dark .close_ham {
+  color: black;
+}
+
+.dark .close {
+  background: #fefefe;
+}
+
+.dark article .blog-title,
+.dark a {
+  color: #fefefe;
+}
+
+.dark .blog-details,
+.dark .footer,
+.dark .profile_body{
+  border-top: 1px solid #34302d;
+}
+
+.dark hr {
+  border: 1px solid #34302d;
+}
+
+.dark tr {
+  color: #c0bfbf;
+}
+
+.dark th {
+  color: #fefefe;
+}
+
+.dark td,
+.dark th {
+  border: 1px solid #dfdfe1;
+}
+
+.dark .footer_btn:hover .logo {
+  fill: #4a4846;
+}

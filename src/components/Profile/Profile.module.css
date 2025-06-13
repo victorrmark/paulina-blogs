@@ -1,0 +1,34 @@
+#profile_header {
+  padding-bottom: 32px;
+}
+
+.title {
+  position: relative;
+  display: inline-block;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  border-bottom: 8px solid #93cefc;
+  height: 2px;
+  width: 100%;
+  z-index: -1;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.blog {
+  color: #34302d;
+  font-size: 18px;
+  padding: 3px;
+}
+
+.blog:hover {
+  color: #504e4b;
+  border-bottom: 3px solid #93cefc;
+}
