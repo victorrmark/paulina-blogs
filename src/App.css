@@ -5,13 +5,13 @@
   transition: 0.3s;
 }
 .dark #body {
-  outline: 1px solid #34302d;
+  outline: .0625rem solid #34302d;
 }
 
 .dark .nav-section,
 .dark .nav-mobile {
   background: #201e1d;
-  outline: 1px solid #34302d;
+  outline: .0625rem solid #34302d;
 }
 
 .dark .hamburger {
@@ -37,14 +37,14 @@
 
 .dark input {
   background: #201e1d;
-  border: 1px solid #4a4846;
+  border: .0625rem solid #4a4846;
   color: #dedcda;
 }
 
 .dark .color-mode,
 .dark .social {
   background: #201e1d;
-  border: 1px solid #34302d;
+  border: .0625rem solid #34302d;
   transition: 0.5s;
 }
 
@@ -72,11 +72,11 @@
 .dark .blog-details,
 .dark .footer,
 .dark .profile_body{
-  border-top: 1px solid #34302d;
+  border-top: .0625rem solid #34302d;
 }
 
 .dark hr {
-  border: 1px solid #34302d;
+  border: .0625rem solid #34302d;
 }
 
 .dark tr {
@@ -89,7 +89,7 @@
 
 .dark td,
 .dark th {
-  border: 1px solid #dfdfe1;
+  border: .0625rem solid #dfdfe1;
 }
 
 .dark .footer_btn:hover .logo {

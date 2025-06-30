@@ -1,5 +1,5 @@
 #profile_header {
-  padding-bottom: 32px;
+  padding-bottom: 2rem;
 }
 
 .title {
@@ -11,24 +11,24 @@
   content: "";
   position: absolute;
   left: 0;
-  bottom: 4px;
-  border-bottom: 8px solid #93cefc;
-  height: 2px;
+  bottom: .25rem;
+  border-bottom: .5rem solid #93cefc;
+  height: .125rem;
   width: 100%;
   z-index: -1;
 }
 
 .section {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .blog {
   color: #34302d;
-  font-size: 18px;
-  padding: 3px;
+  font-size: var(--fs-18px);
+  padding: .1875rem;
 }
 
 .blog:hover {
   color: #504e4b;
-  border-bottom: 3px solid #93cefc;
+  border-bottom: .1875rem solid #93cefc;
 }

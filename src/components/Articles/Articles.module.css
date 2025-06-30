@@ -1,16 +1,16 @@
 .header {
-  margin-bottom: 24px;
+  margin-bottom: var(--fs-24px);
 }
 
 .blog_details {
-  padding: 20px 0;
+  padding: 1.25rem 0;
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  border-top: 1px solid #efedeb;
+  gap: .375rem;
+  border-top: .0625rem solid #efedeb;
 }
 
 .dark .blog_details{
-  border-top: 1px solid #efedeb;
+  border-top: .0625rem solid #efedeb;
 
 }

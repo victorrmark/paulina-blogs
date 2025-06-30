@@ -1,54 +1,54 @@
 .slug {
-  font-size: 40px;
-  margin-bottom: 16px;
+  font-size: var(--fs-40px);
+  margin-bottom: var(--fs-16px);
 }
 
 .blog_des {
-  margin-top: 16px;
+  margin-top: var(--fs-16px);
 }
 
 .blog_des p,
 .blog_des li {
-  margin-bottom: 10px;
+  margin-bottom: .625rem;
 }
 
 ul,
 ol {
   /* list-style-position: inside; */
-  margin-left: 25px;
+  margin-left:1.5625rem
 }
 
 h2 {
-  margin-bottom: 7px;
+  margin-bottom: .4372rem;
 }
 
 blockquote {
-  margin: 0 10px;
-  padding: 0 5px;
-  border-left: 3px solid #bdbbb9;
+  margin: 0 .625rem;
+  padding: 0 .3125rem;
+  border-left: .1875rem solid #bdbbb9;
 }
 
 hr {
-  margin: 32px 0;
-  border: 1px solid #efedeb;
+  margin: 2rem 0;
+  border: .0625rem solid #efedeb;
 }
 
 table {
   border-spacing: 0;
   border-collapse: separate;
   display: block;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top:  var(--fs-16px);
+  margin-bottom:  var(--fs-16px);
   width: max-content;
   max-width: 100%;
   overflow: auto;
-  padding: 3px;
+  padding: .1875rem;
 }
 
 td,
 th {
-  padding: 6px 13px;
-  border: 1px solid #efedeb;
+  padding: .375rem .8125rem;
+  border: .0625rem solid #efedeb;
 }
 
 th {
@@ -57,20 +57,20 @@ th {
 }
 
 table tr:first-child th:first-child {
-  border-top-left-radius: 8px;
+  border-top-left-radius: .5rem;
 }
 
 /* Top-right */
 table tr:first-child th:last-child {
-  border-top-right-radius: 8px;
+  border-top-right-radius: .5rem;
 }
 
 /* Bottom-left */
 table tr:last-child td:first-child {
-  border-bottom-left-radius: 8px;
+  border-bottom-left-radius: .5rem;
 }
 
 /* Bottom-right */
 table tr:last-child td:last-child {
-  border-bottom-right-radius: 8px;
+  border-bottom-right-radius: .5rem;
 }

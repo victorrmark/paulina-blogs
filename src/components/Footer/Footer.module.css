@@ -8,15 +8,15 @@
   display: flex;
   flex-wrap: wrap;
   min-width: 0;
-  gap: 10px;
+  gap: .625rem;
   padding: 0;
 }
 
 .btn {
   margin: 0;
   background-color: transparent;
-  padding: 5px;
-  border-radius: 5px;
+  padding: .3125rem;
+  border-radius: .3125rem;
   border: none;
   cursor: pointer;
 }
